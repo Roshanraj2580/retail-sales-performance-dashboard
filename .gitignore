@@ -1,0 +1,21 @@
+# Data — never commit datasets or the built database
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.db
+*.sqlite3
+
+# Power BI working files
+*.pbix.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Secrets
+.env

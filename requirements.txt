@@ -1,0 +1,4 @@
+pandas>=2.0
+SQLAlchemy>=2.0
+# Only needed if DB_ENGINE=postgres
+psycopg2-binary>=2.9
