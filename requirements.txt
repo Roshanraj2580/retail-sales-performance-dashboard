@@ -1,4 +1,5 @@
 pandas>=2.0
 SQLAlchemy>=2.0
+streamlit>=1.35
 # Only needed if DB_ENGINE=postgres
 psycopg2-binary>=2.9

@@ -73,6 +73,16 @@ python src/load.py      # builds schema, loads tables, creates views
 python src/report.py    # prints your actual numbers
 ```
 
+To preview the dashboard locally, install the requirements and run:
+
+```bash
+streamlit run app.py
+```
+
+The dashboard opens at `http://localhost:8501`. Before processed data exists it
+shows clearly labeled demo data; after running the pipeline it automatically
+uses the tables in `data/processed/`.
+
 Defaults to SQLite with no setup. For PostgreSQL:
 
 ```bash

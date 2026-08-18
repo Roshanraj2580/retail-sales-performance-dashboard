@@ -1,10 +1,4 @@
--- ============================================================================
--- Relational schema — star layout: three dimensions, one fact table.
---
--- The raw CSV is a single wide, denormalized file. Splitting it this way
--- removes repeated customer/product/location text from every order line,
--- keeps updates in one place, and gives the analysis queries real joins to
--- work with. Written to run on both SQLite and PostgreSQL.
+-- =================================================================
 -- ============================================================================
 
 DROP TABLE IF EXISTS fact_order_lines;
